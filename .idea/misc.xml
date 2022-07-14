@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/GIGABYTE/AndroidStudioProjects/Swoosh_basketball_layout/app/src/main/res/drawable/soshbuttn.xml" value="0.1945" />
+        <entry key="..\:/Users/GIGABYTE/AndroidStudioProjects/Swoosh_basketball_layout/app/src/main/res/drawable/swoosh_btn_chacked.xml" value="0.1945" />
+        <entry key="..\:/Users/GIGABYTE/AndroidStudioProjects/Swoosh_basketball_layout/app/src/main/res/drawable/swoosh_toggle.xml" value="0.1945" />
+        <entry key="..\:/Users/GIGABYTE/AndroidStudioProjects/Swoosh_basketball_layout/app/src/main/res/layout/activity_league.xml" value="0.19377162629757785" />
         <entry key="..\:/Users/GIGABYTE/AndroidStudioProjects/Swoosh_basketball_layout/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
       </map>
     </option>
