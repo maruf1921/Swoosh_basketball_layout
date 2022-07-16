@@ -15,6 +15,6 @@ class FinishActivity : AppCompatActivity() {
         val league = intent.getStringExtra(EXTRA_LEAGUE)
         val skill = intent.getStringExtra(EXTRA_SKILL)
 
-        searchLeagueText.text = "Loooking for $league $skill league near you..."
+        searchLeagueText.text = "Looking for $league $skill league near you..."
     }
 }
