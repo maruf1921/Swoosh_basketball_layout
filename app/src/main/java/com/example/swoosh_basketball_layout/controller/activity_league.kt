@@ -1,10 +1,12 @@
-package com.example.swoosh_basketball_layout
+package com.example.swoosh_basketball_layout.controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.swoosh_basketball_layout.EXTRA_LEAGUE
+import com.example.swoosh_basketball_layout.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class activity_league : AppCompatActivity() {
@@ -39,7 +41,7 @@ class activity_league : AppCompatActivity() {
 
     fun leagueNextClicked(view: View){
         if (selectedLeague != ""){
-        val skillActivity = Intent(this,skill_activity::class.java)
+        val skillActivity = Intent(this, skill_activity::class.java)
         skillActivity.putExtra(EXTRA_LEAGUE, selectedLeague)
             startActivity(skillActivity)
     } else{
