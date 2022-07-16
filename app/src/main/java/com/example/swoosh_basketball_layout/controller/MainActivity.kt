@@ -1,8 +1,9 @@
-package com.example.swoosh_basketball_layout
+package com.example.swoosh_basketball_layout.controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.swoosh_basketball_layout.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
